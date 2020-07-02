@@ -22,7 +22,7 @@ app.use(morgan("dev"));
 app.use(localsMiddleware);
 
 app.use("/", globalRouter);
-app.use("/user", userRouter);
+app.use("/users", userRouter);
 app.use("/video", videoRouter);
 
 export default app;
