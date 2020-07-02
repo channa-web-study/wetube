@@ -23,6 +23,6 @@ app.use(localsMiddleware);
 
 app.use("/", globalRouter);
 app.use("/users", userRouter);
-app.use("/video", videoRouter);
+app.use("/videos", videoRouter);
 
 export default app;
